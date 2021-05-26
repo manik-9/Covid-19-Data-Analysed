@@ -2,6 +2,7 @@ Select * FROM [Portfolio].[dbo].[CovidDeaths]
 Where continent is not null
 Order by 3,4
 
+--Covid Vaccination Table
 Select * FROM [Portfolio].[dbo].[CovidVaccinations]
 Order by 3,4
 
